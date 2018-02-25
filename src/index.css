@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title-bar-container {
+  position: relative;
+  display: block;
+  float: left;
+  background-color: blue;
+  height: 10vh;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.main-logo {
+  height: 10vh;
+  width: 20vh;
+  background-color: yellow;
+  position: absolute;
+  left: 20vw;
+}
+
+.main-logo h1{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.ants-container {
+  position: relative;
+  display: block;
+  float: left;
+  height: auto;
+  width: 100%;
+}
+
+.ants-carousel-container {
+  position: relative;
+  display: block;
+  float: left;
+  height: 87vh;
+  width: 100%;
+  background-color: #d3d3d3;
+}
+
+.ants-carousel-content{
+  width: 100%;
+  height: 87vh;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0;
+}
+
+.img-helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.ants-carousel-content img{
+  width: 80%;
+  vertical-align: middle;
+}
+
+
+.ants-carousel-info{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 500px;
+  width: 500px;
+  top: 100px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.ants-standings-container {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.ants-race-track {
+  position: absolute;
+  background-color: green;
+  width: 50vw;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  margin-left: -25vw;
+  margin-top: -25vh;
+}
+
+.starting-line {
+  position: absolute;
+  float: left;
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 10%;
+  left: 0;
+  top: 0;
+}
+
+.ant-standings-list{
+  position: relative;
+  display: block;
+  float: left;
+  background-color: red;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.ant-standing-card{
+  white-space: nowrap;
+  margin: 0;
+}
+
+.ant-standing-card img{
+  width: 15%;
+  vertical-align: middle;
+}
+
+.finish-line {
+  position: absolute;
+  float: right;
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 10%;
+  right: 0;
+  top: 0;
+}
