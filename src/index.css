@@ -16,6 +16,28 @@ body {
   margin-top: 3vh;
 }
 
+.loading-container{
+  position: absolute;
+  color: black;
+  height: 500px;
+  width: 500px;
+  top: 100px;
+  left: 50%;
+  margin-left: -250px;
+  text-align: center;
+}
+
+.loading-img-container{
+  width: 100%;
+  height: 300px;
+}
+
+.loading-animation img{
+  width: 250px;
+  vertical-align: middle;
+}
+
+
 .main-logo {
   height: 10vh;
   width: 20vh;
@@ -34,25 +56,6 @@ body {
   transform: rotate(-7deg);
 }
 
-.calculate-all-button{
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-  box-sizing: border-box;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  -webkit-transition-duration: 0.4s;]
-  transition-duration: 0.4s;
-}
-
-.calculate-all-button:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .ants-container {
   position: relative;
   display: block;
@@ -67,7 +70,7 @@ body {
   float: left;
   height: 87vh;
   width: 100%;
-  background-color: #d3d3d3;
+  background-color: #eef78f;
 }
 
 .ants-carousel-content{
@@ -137,11 +140,9 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  /*width: 200%;*/
   height: 185%;
   vertical-align: middle;
 }
-
 
 .ants-carousel-info{
   position: absolute;
@@ -176,7 +177,6 @@ body {
   font-size: 125%;
   color: white;
 }
-
 
 .race-message h1{
   margin: 0;
@@ -277,6 +277,21 @@ body {
   text-align: center;
 }
 
-.calculate-all-button {
+.calculate-all-button{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;]
+  transition-duration: 0.4s;
+}
 
+.calculate-all-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
 }

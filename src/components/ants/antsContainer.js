@@ -38,7 +38,8 @@ class AntsContainer extends Component{
   render(){
     let antCarousel
     let antStandings
-    
+    console.log(this.state.colors)
+
     if(!this.props.antsQuery.ants){
       antCarousel = <LoadingContainer/>
       antStandings = <LoadingContainer/>
