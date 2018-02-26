@@ -5,7 +5,7 @@ class TitleBarContainer extends Component{
     return(
       <div className="title-bar-container">
         <div className="main-logo">
-          <img alt="ant log logo" src="http://res.cloudinary.com/dwnehv6tb/image/upload/v1519614934/antsloglogo_daidqr.png"/>
+          <img alt="ant log logo" src="https://res.cloudinary.com/dwnehv6tb/image/upload/v1519614934/antsloglogo_daidqr.png"/>
           <h1>Ant Log</h1>
         </div>
 

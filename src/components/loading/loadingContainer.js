@@ -10,7 +10,7 @@ class LoadingContainer extends Component{
         <div className="loading-animation">
           <div className="loading-img-container">
             <span className="img-helper"></span>
-            <img src="http://res.cloudinary.com/dwnehv6tb/image/upload/v1519580698/ant-clipart-dcr6A6qc9_x6qsac.png"/>
+            <img src="https://res.cloudinary.com/dwnehv6tb/image/upload/v1519580698/ant-clipart-dcr6A6qc9_x6qsac.png"/>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ class AntCard extends Component{
     return(
       <div className="ants-carousel-content" style={{backgroundColor: `${this.props.color}`}}>
         <span className="img-helper"></span>
-        <img alt="ant graphic" src="http://res.cloudinary.com/dwnehv6tb/image/upload/v1519580698/ant-clipart-dcr6A6qc9_x6qsac.png" />
+        <img alt="ant graphic" src="https://res.cloudinary.com/dwnehv6tb/image/upload/v1519580698/ant-clipart-dcr6A6qc9_x6qsac.png" />
         <div className="ants-carousel-info">
           <div className="ant-text">
             <div>
