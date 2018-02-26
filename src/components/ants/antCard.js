@@ -4,16 +4,15 @@ import { generateAntWinLikelihoodCalculator } from '../helpers/generateLikelihoo
 
 class AntCard extends Component{
   state = {
-    odds: "not yet run",
+    odds: "Not Yet Calculated",
     calculated: false,
   }
 
   handleOdds = () => {
     this.setState({
-      odds: "running"
+      odds: "Calculating..."
     })
     generateAntWinLikelihoodCalculator()(res => {
-      console.log("IN CALCULATOR", this.props)
       this.props.updateOdds(res, this.props.idx)
       this.setState({
         odds: res,
@@ -37,27 +36,27 @@ class AntCard extends Component{
         <span className="img-helper"></span>
         <img alt="ant graphic" src="http://res.cloudinary.com/dwnehv6tb/image/upload/v1519580698/ant-clipart-dcr6A6qc9_x6qsac.png" />
         <div className="ants-carousel-info">
-          <div>
-            <h1>{ant.name}</h1>
-          </div>
-          <div>
-            Length:
-            {ant.length}
-          </div>
-          <div>
-            Weight:
-            {ant.weight}
-          </div>
-          <div>
-            Color:
-            {ant.color}
-          </div>
-          <div>
-            Odds:
-            {this.state.odds}
-          </div>
-          <div>
-            <SingleAntButton handleOdds={this.handleOdds} calculated={this.state.calculated}/>
+          <div className="ant-text">
+            <div>
+              <h1>{ant.name}</h1>
+            </div>
+            <div className="ant-info">
+              <p>
+                Length:{" "}{ant.length}
+              </p>
+              <p>
+                Weight:{" "}{ant.weight}
+              </p>
+              <p>
+                Color:{" "}{ant.color}
+              </p>
+              <p>
+                Odds:{" "}{this.state.odds}
+              </p>
+            </div>
+            <div className="button-helper">
+              <SingleAntButton handleOdds={this.handleOdds} calculated={this.state.calculated}/>
+            </div>
           </div>
         </div>
       </div>
