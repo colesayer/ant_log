@@ -1,11 +1,11 @@
-##Welcome to Ant Log.
+## Welcome to Ant Log.
 
 <a href="https://ant-log.herokuapp.com/">https://ant-log.herokuapp.com/</a>
 
 An ant racing outcome predictor.
 So incredibly accurate it should be illegal.
 
-###Usage
+### Usage
 
 1. Clone the repository.
 2. Cd into the cloned repository.
