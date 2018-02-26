@@ -2,8 +2,7 @@
 
 <a href="https://ant-log.herokuapp.com/">https://ant-log.herokuapp.com/</a>
 
-An ant racing outcome predictor.
-So incredibly accurate it should be illegal.
+An ant racing outcome predictor so accurate it should be illegal.
 
 ### Usage
 
