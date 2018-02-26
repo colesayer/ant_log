@@ -22,7 +22,6 @@ class AntStandingsContainer extends Component{
   }
 
   findWinner = () => {
-    console.log("WINNER", this.props)
     let maxVal = 0
     let maxIdx = ""
     for(let idx in this.props.odds){
@@ -44,7 +43,6 @@ class AntStandingsContainer extends Component{
 
     if( oddsLength === this.props.ants.length){
       winner = this.findWinner().name
-      console.log("winner:", winner)
       calcSwitch = true
       message = `${winner} Is Most Likely To Win!`
     } else if (this.state.clicked){
